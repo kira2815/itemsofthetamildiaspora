@@ -36,7 +36,9 @@ html, body{
   text-align: center;
   padding: 1rem;
 }
-.floating{
+/* floating code from https://www.geeksforgeeks.org/css-floating-animation  */ 
+
+.floating{  
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
