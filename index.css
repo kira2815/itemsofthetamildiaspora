@@ -1,0 +1,105 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff8ee;
+  }
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:300px;
+}
+.intro-hover {
+  position: absolute;
+  top: 340px;
+  left: 100;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: #0031ff;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:20px;
+}
+.logo:hover .intro-hover {
+  opacity: 1;
+}
+.intro-hover p {
+  color:#fff8ee;
+  font-size: 14px;
+  font-family: "area-normal", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+.floating{
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+@keyframes floating {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 15px); }
+100%   { transform: translate(0, -0px); }   
+}
+.calendar{
+  position: absolute;
+  top: -190px;
+  right: 95px;
+}
+.statue{
+  position: absolute;
+  top: -200px;
+  right: 1150px;
+}
+.reuse{
+  position: absolute;
+  top: 15px;
+  right: 900px;
+}
+.trophy{
+  position: absolute;
+  top: 10px;
+  right: 470px;
+}
+.book{
+  position: absolute;
+  top: -450px;
+  right: 440px;
+}
+.coconut{
+  position: absolute;
+  top: -420px;
+  right: 885px;
+}
+
+.book img:hover{
+  content: url('photoREG/bookREG.png');
+}
+
+.trophy img:hover{
+  content: url('photoREG/trophy.png');
+}
+
+.reuse img:hover{
+  content: url('photoREG/reusex.png');
+}
+
+.statue img:hover{
+  content: url('photoREG/statue.png'); 
+}
+
+.coconut img:hover{
+  content: url('photoREG/coconutREG.png');
+}
+
+.calendar img:hover {
+  content: url('photoREG/calendarREG.png');
+}
