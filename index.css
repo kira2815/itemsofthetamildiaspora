@@ -38,19 +38,85 @@ html, body{
 }
 /* floating code from https://www.geeksforgeeks.org/css-floating-animation  */ 
 
-.floating{  
-  animation-name: floating;
+.floatingbook{  
+  animation-name: floatingbook;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 100px;
+  margin-top: 8px;
+}
+@keyframes floatingbook {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 25px); }
+100%   { transform: translate(0, -0px); }   
+}
+.floatingtrophy{  
+  animation-name: floatingtrophy;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
 }
-@keyframes floating {
+@keyframes floatingtrophy {
 0% { transform: translate(0,  0px); }
-50%  { transform: translate(0, 15px); }
+50%  { transform: translate(0, 30px); }
 100%   { transform: translate(0, -0px); }   
 }
+.floatingreuse{  
+  animation-name: floatingreuse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 2px;
+}
+@keyframes floatingreuse {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 40px); }
+100%   { transform: translate(0, -0px); }   
+}
+.floatingstatue{  
+  animation-name: floatingstatue;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+@keyframes floatingstatue {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 25px); }
+100%   { transform: translate(0, -0px); }   
+}
+.floatingcoconut{  
+  animation-name: floatingcoconut;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+@keyframes floatingcoconut {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 25px); }
+100%   { transform: translate(0, -0px); }   
+}
+.floatingcalendar{  
+  animation-name: floatingcalendar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+@keyframes floatingcalendar {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 24px); }
+100%   { transform: translate(0, -0px); }   
+}
+
 .calendar{
   position: absolute;
   top: -190px;
